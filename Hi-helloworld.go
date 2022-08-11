@@ -67,6 +67,11 @@ func main() {
 	fmt.Printf("myslice1 = %v\n", myslicByMake1)
 	fmt.Printf("length = %d\n", len(myslicByMake1))
 	fmt.Printf("capacity = %d\n", cap(myslicByMake1))
+	//append
+	myslicByMake1 = append(myslicByMake1, 1, 2)
+	fmt.Printf("myslice1 = %v\n", myslicByMake1)
+	fmt.Printf("length = %d\n", len(myslicByMake1))
+	fmt.Printf("capacity = %d\n", cap(myslicByMake1))
 
 	// with omitted capacity
 	mysliceByMake2 := make([]int, 5)
